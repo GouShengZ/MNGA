@@ -27,10 +27,8 @@ final class LocalFavoriteForumsStorage: FavoriteForumsStorageProtocol {
     // }
   }
 
-  private static let groupStore = UserDefaults(suiteName: Constants.Key.groupStore)!
-
   // @AppStorage("favoriteForums") private var oldFavoriteForums = [Forum]()
-  @AppStorage(Constants.Key.favoriteForums, store: groupStore) var favoriteForums = [Forum]()
+  @AppStorage(Constants.Key.favoriteForums) var favoriteForums = [Forum]()
 
   func remove(id: ForumId) {
     favoriteForums.removeAll(where: { $0.id == id })

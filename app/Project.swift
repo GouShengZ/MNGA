@@ -31,7 +31,7 @@ let project = Project(
             name: "MNGA",
             destinations: .iOS,
             product: .app,
-            bundleId: "com.bugenzhao.MNGA",
+            bundleId: "com.GouShengZ.MNGA",
             deploymentTargets: .iOS("18.4"),
             infoPlist: .file(path: "iOS/Info.plist"),
             sources: [
@@ -74,21 +74,15 @@ let project = Project(
                     "ENABLE_BITCODE": "NO",
                     "SWIFT_OBJC_BRIDGING_HEADER": "../out/include/bindings.h",
                     "LIBRARY_SEARCH_PATHS": "../out/libs/**",
-                    "DEVELOPMENT_TEAM": "87F9J2DF6R",
                     "SUPPORTS_MACCATALYST": "NO",
                     "SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD": "YES",
                 ],
                 configurations: [
                     .debug(name: .debug, settings: [
-                        "CODE_SIGN_IDENTITY": "Apple Development",
-                        "PROVISIONING_PROFILE_SPECIFIER": "match Development com.bugenzhao.MNGA",
                         "OTHER_LDFLAGS[sdk=iphonesimulator*]": ["-Xlinker", "-interposable"],
                         "EMIT_FRONTEND_COMMAND_LINES": "YES",
                     ]),
-                    .release(name: .release, settings: [
-                        "CODE_SIGN_IDENTITY": "Apple Distribution",
-                        "PROVISIONING_PROFILE_SPECIFIER": "match AppStore com.bugenzhao.MNGA",
-                    ]),
+                    .release(name: .release, settings: [:]),
                 ]
             )
         ),

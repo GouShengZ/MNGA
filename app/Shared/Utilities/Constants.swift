@@ -25,7 +25,6 @@ enum Constants {
   }
 
   enum Key {
-    static let groupStore = "group.com.bugenzhao.MNGA"
     static let favoriteForums = "favoriteForums"
   }
 
