@@ -73,7 +73,7 @@ extension ThemeColor {
 
   var description: LocalizedStringKey {
     switch self {
-    case .mnga: "MNGA"
+    case .mnga: "FNGA"
     case .red: "Red"
     case .orange: "Orange"
     case .yellow: "Yellow"

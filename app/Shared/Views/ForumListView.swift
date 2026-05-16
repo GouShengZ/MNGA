@@ -208,7 +208,7 @@ struct ForumListView: View {
   }
 
   var title: String {
-    "MNGA"
+    "FNGA"
   }
 
   var body: some View {

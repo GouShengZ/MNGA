@@ -306,7 +306,7 @@ struct PreferencesInnerView: View {
       //   special
       // }
 
-      Section(header: Text("MNGA \(BuildInfo.current.description)")) {
+      Section(header: Text("FNGA \(BuildInfo.current.description)")) {
         about
       }
     }

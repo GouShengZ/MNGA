@@ -178,7 +178,7 @@ struct LoginView: View {
 
   var alert: Alert {
     // Add our notice to the alert message.
-    let msg = "\(alertMessage ?? "")\n\n\("MNGA Login Notice".localized)"
+    let msg = "\(alertMessage ?? "")\n\n\("FNGA Login Notice".localized)"
     return Alert(title: "From NGA".localized, message: msg)
   }
 

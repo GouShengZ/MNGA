@@ -204,7 +204,7 @@
 "Clock in" = "签到";
 "Clocked in Successfully" = "签到成功";
 "Share" = "分享";
-"MNGA Link" = "MNGA 链接";
+"FNGA Link" = "FNGA 链接";
 "NGA Link" = "NGA 链接";
 "Screenshot" = "截图";
 "Failed to render screenshot." = "渲染截图失败。";
@@ -266,10 +266,10 @@
 "Larger Font" = "更大字体";
 "Unknown" = "未知";
 "Auto Refreshed" = "已自动刷新";
-"MNGA Main Menu" = "MNGA 主菜单";
+"FNGA Main Menu" = "FNGA 主菜单";
 "Sign in to NGA and discover more features here." = "在这里登录 NGA 账号，探索更多功能。";
 "Continue" = "继续";
-"What's new in MNGA %@" = "MNGA %@ 更新内容";
+"What's new in FNGA %@" = "FNGA %@ 更新内容";
 "What's New" = "更新内容";
 "Current Version" = "当前版本";
 "Expand All Categories" = "展开所有分类";
@@ -321,7 +321,7 @@
 "Sync Favorites" = "同步收藏";
 "Back" = "返回";
 "Sync Favorite Forums" = "同步收藏版块";
-"MNGA Login Notice" = "MNGA 提示：如遇登录限制，请在 PC 网页端成功登录一次，然后再尝试登录 MNGA。";
+"FNGA Login Notice" = "FNGA 提示：如遇登录限制，请在 PC 网页端成功登录一次，然后再尝试登录 FNGA。";
 
 "Error Response" = "错误响应";
 "Missing Field" = "缺少字段";

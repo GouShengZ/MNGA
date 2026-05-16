@@ -175,7 +175,7 @@ struct UserMenuView: View {
 
 struct UserMenuTip: Tip {
   var title: Text {
-    Text("MNGA Main Menu")
+    Text("FNGA Main Menu")
   }
 
   var message: Text? {

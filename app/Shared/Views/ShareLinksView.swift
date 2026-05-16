@@ -41,7 +41,7 @@ struct ShareLinksView<V: View>: View {
     Menu {
       if let mngaURL = navigationID.mngaURL {
         ShareLink(item: mngaURL) {
-          Label("MNGA Link", systemImage: "m.circle")
+          Label("FNGA Link", systemImage: "f.circle")
         }
       }
 

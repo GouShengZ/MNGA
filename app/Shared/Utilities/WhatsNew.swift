@@ -9,8 +9,8 @@ import SwiftUI
 import WhatsNewKit
 
 private func whatsNewTitle(version: String) -> WhatsNew.Title {
-  var title = AttributedString(localized: "What's new in MNGA \(version)")
-  if let range = title.range(of: "MNGA \(version)") {
+  var title = AttributedString(localized: "What's new in FNGA \(version)")
+  if let range = title.range(of: "FNGA \(version)") {
     title[range].foregroundColor = .accentColor
   }
   return .init(text: .init(title))
